@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link rel="Shortcut icon" type="image/png" href="D:\sereneo\livrables_dpd\resources\logo_title.PNG">
+    <link rel="stylesheet" href="maquete_dpd.css">
+    <title>Maquete</title>
+  </head>
+
+  <body>
+    <div class="container" style="margin-top: 2%;">
+      <div class="row"> 
+        <div class="col-8 col-md-8">
+          <h1>Gestion des litiges</h1>
+        </div>
+        <div class="col-4 col-md-4"> <img class="brand" src="../resources/logo.PNG"></div>        
+      </div>
+      <article>
+        <div class="row">
+          <div class="col-12 col-md-8" style="
+                                              margin-top: 2%;
+                                              background-color: #f4f4f4;
+                                              border-width: 0.5px;
+                                              padding-top: 2%;">
+            <p>Veuillez renseigner les informations suivantes : </p>
+            <form>
+              <div class="form-group">
+                <label for="parcelId">Numéro de colis</label>
+                <input type="email" class="form-control" id="parcelId" placeholder="MA59755794FR">
+              </div>
+              <div class="form-group">
+                <label for="senderId">Référence expéditeur</label>
+                <input type="email" class="form-control" id="parcelId" placeholder="MP203185984FR">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlSelect1">Motif</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>Litige</option>
+                  <option>Qualité</option>
+                </select>
+              </div>
+            </form>
+          </div>
+          <div class="col-4 col-md-4" style="
+                                            margin-top: 2%;
+                                            background-color: #f4f4f4;
+                                            border-width: 0.5px;
+                                            text-align: center; padding-top: 2%;">     
+            <aside>
+              <h2>Actions</h2>
+                  <ul class="list-actions">
+                    <li class="list-group-item">
+                      <a href="#" class="btn btn-1 btn-sep icon-heart"><span>Valider le dossier</span></a>
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#" class="btn btn-1 btn-sep icon-heart"><span>Refuser le dossier</span></a>
+                    </li>
+                    <li class="list-group-item">
+                      <a href="#" class="btn btn-1 btn-sep icon-heart" style="height: 50px;"><span>Faire une demande <br>de complément</span></a>
+                    </li>
+                  </ul>
+            </aside>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 col-md-4" style=" background-color: #f4f4f4;
+          border-width: 0.5px;
+          text-align: center;">
+            <div class="datagrid">
+              <table>
+                 <tbody>
+                    <tr>
+                       <td>Numero de colis</td>
+                       <td></td>
+                       <td>123451245900</td>
+                    </tr>
+                    <tr class="alt">
+                       <td>N du litige</td>
+                       <td>A737</td>
+                    </tr>
+                    <tr class="alt">
+                      <td>N° de l'agence expéditrice</td>
+                      <td>333</td>
+                   </tr>
+                   <tr class="alt">
+                    <td>Date d'expédition</td>
+                    <td>02/02/2021</td>
+                   </tr>
+                   <tr class="alt">
+                    <td>Test</td>
+                    <td>Test</td>
+                   </tr>
+                   
+                 </tbody>
+              </table>
+           </div>
+          </div>
+          <div class="col-4 col-md-4" style=" background-color: #f4f4f4;
+          border-width: 0.5px;
+          text-align: center;">
+            <div class="datagrid">
+              <table>
+                 <tbody>
+                    <tr>
+                       <td>Identifiant de l'agent créateur</td>
+                       <td>Pierre Dupont</td>
+                    </tr>
+                    <tr class="alt">
+                       <td>Motif du litige</td>
+                       <td>Sploiliation</td>
+                    </tr>
+                    <tr class="alt">
+                      <td>Client</td>
+                      <td>123456</td>
+                   </tr>
+                   <tr class="alt">
+                    <td>Test</td>
+                    <td>Test</td>
+                   </tr>
+                   
+                 </tbody>
+              </table>
+           </div>
+          </div>
+          <div class="col-4 col-md-4" style="background-color: #f4f4f4;
+                                              border-width: 0.5px;
+                                              text-align: center;">     
+            <aside>
+              <h2>Documents</h2>
+              <ul style="list-style-type:none;">
+                <li><a href="#">Bon émargé</a></li>
+                <li><a href="#">Facture d'origine</a></li>
+                <li><a href="#">Depot de plainte</a></li>
+                <li><a href="#">Certificat de destruction</a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>     
+      </article>
+      <footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>    
+      </footer>
+    </div>
+  </body>
+</html>
